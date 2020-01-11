@@ -16,3 +16,126 @@ body
     text-align: center;
 	font-size: 8px;
 }
+
+.container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hyperlink:link, .hyperlink:visited, .hyperlink:hover, .hyperlink:active 
+{
+  text-decoration: none;
+  color: black;
+}
+
+.propozycja
+{
+    margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.zdjecie
+{
+	float: left;
+	margin-right: 20px;
+}
+
+.nazwaPrzepisu
+{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.ocenaPrzepisu
+{
+	float: left;
+	font-size: 18px;
+}
+
+.opisPrzepisu
+{
+	font-size: 15px;
+	margin-top: 35px;
+	margin-bottom: 5px;
+	
+}
+
+.fb
+{
+	float: left;
+	background-color: blue;
+	height: 71px;
+	width: 71px;
+	margin-right: 5px;
+	border-radius: 15%;
+	background-color:#4668b3;
+	color: white;
+}
+
+.gplus
+{
+    float: left;
+	background-color: red;
+	height: 71px;
+	width: 71px;
+	margin-left: 5px;
+	border-radius: 15%;
+	background-color:#d95333;
+	color: white;
+}
+
+.fb:hover, .gplus:hover {
+  opacity: 0.7;
+}
+
+.button
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.gwiazdka
+{
+	float: left;
+}
+
+.ocena
+{
+	float: left;
+}
+
+.listek
+{
+	float: left;
+	color: #32cd32;
+}
+
+.ocenaPrzepisuSzczegol
+{
+	float: left;
+	font-size: 18px;
+	margin-left: 45%;
+}
+
+#socialmedia
+{
+	width: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#przepis
+{
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#opis
+{
+	margin-top: 30px;
+	width: 50%;
+}
